@@ -1,0 +1,20 @@
+{
+  "name": "interactive-list",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "scripts .env build src/index.tsx"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "infrastructure-components": "^0.3.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-sortable-hoc": "^1.10.1"
+  },
+  "devDependencies": {
+    "infrastructure-scripts": "^0.3.0",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "serverless-single-page-app-plugin": "^1.0.2"
+  }
+}
